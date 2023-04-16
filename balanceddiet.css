@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(flowersbg.jpg);
+
+   background-size: cover;
+   
+}
+/* Navigation Bar */
+#navbar{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+/*Logo and Image */
+#logo{
+margin: 10px 34px;
+}
+#logo img{
+    height: 70px;
+margin: 3px 6px;
+}
+/*list styling*/
+#navbar ul{
+    display: flex;
+}
+#navbar::before{
+    content: "";
+    background-color:  #00100e;;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: black;
+    background: white;
+    cursor: pointer;
+}
+.table-container{
+    padding: 0 10%;
+    margin: 40px auto 0;
+
+}
+.heading{
+    font-size: 30px;
+    text-align: center;
+    color: #f7f7f7;
+    margin-bottom: 40px;
+}
+.table{
+    height: 250px;
+    width: 500px;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px;
+}
+.table thead{
+    background-color:#010e06 ;
+
+}
+.table thead tr th{
+    font-size: 14px;
+    font-weight: medium;
+    letter-spacing: 0.35px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding: 12px;
+    vertical-align: top;
+    border: 1px solid #dee2e685;
+
+}
+.table tbody tr td{
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    font-weight: normal;
+    color: #f1f1f1;
+    background-color: #010e06;
+    padding: 8px;
+text-align: center;
+border: 1pz solid #dee2e685;
+}
+.table tbody tr td .btn{
+    width: 130px;
+    text-decoration: none;
+    line-height: 20px;
+    display: inline-block;
+    background-color: #035115;
+    font-weight: medium;
+    color: #FFFFFF;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+ 
+    font-size: 14px;
+    opacity: 1;
+    border-radius: 4px;
+}
+#info .h-primary{
+    justify-content: center;
+    align-items: center;
+    color:#ede6e6;
+    text-align: center;
+    font-size: 40px;
+   
+}
+#info p{
+    text-align: center;
+    color: #e6dfdf;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.container{
+width: 500px;
+margin: auto;
+}
+.form{
+width: 300px;
+margin: auto;
+}

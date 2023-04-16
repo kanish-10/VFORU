@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Navigation Bar */
+#navbar{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+/*Logo and Image */
+#logo{
+margin: 10px 34px;
+}
+
+/*list styling*/
+#navbar ul{
+    display: flex;
+}
+#navbar::before{
+    content: "";
+    background-color:  #00100e;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color:white;
+    cursor: pointer;
+}
+#smoothies{
+    height: 555px;
+    display: flex;
+    flex-direction: column;
+    padding: 3px 100px;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+}
+#smoothies::before{
+    content: "";
+    background: url(smoothiereci.jpg)  center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.95;
+    height: 562px;
+}
+#smoothies h1{
+    color: black;
+    text-align: center;
+}
+#smoothies p{
+    color: black;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    cursor: default;
+}
+.h-primary{
+    font-size: 25px;
+    padding: 12px;
+}
+.center{
+    text-align: left;
+}
+.h-secondary{
+    font-size: 25px;
+    padding: 12px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#smoothiesfacts{
+    margin: 34px;
+    display: block;
+    height: fit-content;
+}
+.img{
+height: 200px;
+width: 200px;
+}
+#logo img{
+    height: 70px;
+margin: 3px 6px;
+}
